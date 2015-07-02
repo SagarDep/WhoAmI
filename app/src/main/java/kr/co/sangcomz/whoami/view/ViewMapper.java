@@ -36,6 +36,8 @@ public class ViewMapper {
 						a.setText(text);
 					}
 				}
+
+
 				int visible = param.setVisible();
 				if (visible == 0)
 					view0.setVisibility(View.INVISIBLE);

@@ -2,7 +2,7 @@ package kr.co.sangcomz.whoami.ui.main.Fragment;
 
 
 import android.os.Bundle;
-import android.app.Fragment;
+import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,10 +12,10 @@ import kr.co.sangcomz.whoami.R;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class portfolio extends Fragment {
+public class Portfolio extends Fragment {
 
 
-    public portfolio() {
+    public Portfolio() {
         // Required empty public constructor
     }
 

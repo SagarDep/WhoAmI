@@ -17,7 +17,7 @@ public class SplashActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        this.requestWindowFeature(Window.FEATURE_NO_TITLE); // 액션바 제거
+//        this.requestWindowFeature(Window.FEATURE_NO_TITLE); // 액션바 제거
         setContentView(R.layout.activity_splash);
         splashActivityController = new SplashActivityController(this);
 
