@@ -1,4 +1,4 @@
-package kr.co.sangcomz.whoami.ui.core.transfer;
+package kr.co.sangcomz.whoami.core.transfer;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

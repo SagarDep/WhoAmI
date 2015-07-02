@@ -1,4 +1,4 @@
-package kr.co.sangcomz.whoami.ui.core.transfer;
+package kr.co.sangcomz.whoami.core.transfer;
 
 import android.net.Uri;
 

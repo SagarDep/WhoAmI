@@ -1,4 +1,4 @@
-package kr.co.sangcomz.whoami.ui.core.lifecycle;
+package kr.co.sangcomz.whoami.core.lifecycle;
 
 public interface CycleControllable {
 	public void onStart();

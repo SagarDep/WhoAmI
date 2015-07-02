@@ -1,4 +1,4 @@
-package kr.co.sangcomz.whoami.ui.core.lifecycle;
+package kr.co.sangcomz.whoami.core.lifecycle;
 
 import android.content.Context;
 import android.widget.FrameLayout;

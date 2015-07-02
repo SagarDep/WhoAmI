@@ -1,4 +1,4 @@
-package kr.co.sangcomz.whoami.ui.core.lifecycle;
+package kr.co.sangcomz.whoami.core.lifecycle;
 
 import android.support.v4.app.Fragment;
 
