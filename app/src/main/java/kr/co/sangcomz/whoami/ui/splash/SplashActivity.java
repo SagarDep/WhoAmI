@@ -23,7 +23,6 @@ public class SplashActivity extends Activity {
 
         Handler mHandler = new Handler();
         Runnable runnable;
-
         runnable = new Runnable() {
             @Override
             public void run() {
