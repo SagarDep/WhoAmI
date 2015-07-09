@@ -17,6 +17,7 @@ public class SplashActivityController {
     public void directMainPage(){
         Intent i = new Intent(activity, MainActivity.class);
         activity.startActivity(i);
+        activity.finish();
 
     }
 }

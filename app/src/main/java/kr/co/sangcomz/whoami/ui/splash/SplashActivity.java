@@ -21,15 +21,23 @@ public class SplashActivity extends Activity {
         setContentView(R.layout.activity_splash);
         splashActivityController = new SplashActivityController(this);
 
-        Handler handler = new Handler();
+        Handler mHandler = new Handler();
         Runnable runnable;
 
         runnable = new Runnable() {
             @Override
             public void run() {
-                splashActivityController.directMainPage();
+                splashActivityController.directMainPage(); //MainActivity로 이동
             }
         };
-        handler.postDelayed(runnable, 1000);
+        mHandler.postDelayed(runnable, 1000);
+
+
+//        new Handler().postDelayed(new Runnable() {
+//            @Override
+//            public void run() {
+//                splashActivityController.directMainPage();
+//            }
+//        }, 1000);
     }
 }
