@@ -34,7 +34,7 @@ public class MainActivity extends CycleControllerAppCombatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main, true);
 
-        setSupportActionBar(toolbar); //actionBar ¼³Á¤
+        setSupportActionBar(toolbar); //actionBar
 
         final ActionBar ab = getSupportActionBar();
         ab.setTitle(R.string.title_profile);
@@ -47,8 +47,6 @@ public class MainActivity extends CycleControllerAppCombatActivity {
         if (viewPager != null) {
             mainActivityController.setUpViewPager(this, viewPager, adapter);
         }
-
-
         tabLayout.setupWithViewPager(viewPager);
     }
 //

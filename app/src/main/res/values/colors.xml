@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="actionBarColor">#ffeb3b</color> //actionbarColor background
+    <color name="actionBarTextColor">#66655a</color> //actionbarTextColor background
+    <color name="HintTextColor">#5066655a</color> //actionbarTextColor background
+    <color name="buttonColor">#55c6c6</color>
+    <color name="whiteFilterColor">#99ffffff</color>
+    <color name="blackFilterColor">#99000000</color>
+    <color name="lineColor">#fbc02d</color>
+    <color name="GatheringlineColor">#d5d5d7</color>
+
+
+</resources>
