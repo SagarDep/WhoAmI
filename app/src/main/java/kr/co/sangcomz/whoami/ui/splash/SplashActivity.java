@@ -29,7 +29,7 @@ public class SplashActivity extends Activity {
                 splashActivityController.directMainPage(); //MainActivity로 이동
             }
         };
-        mHandler.postDelayed(runnable, 1000);
+        mHandler.postDelayed(runnable, 2000);
 
 
 //        new Handler().postDelayed(new Runnable() {
